@@ -1,0 +1,37 @@
+.main{
+    height: 480px;
+    width: 480px;
+    border: 10px solid gainsboro;
+    margin: 0 auto;
+}
+.box {
+     height: 60px;
+     width: 60px;
+     background-color: gray;
+     float: left;
+}
+.one ,.two{
+    clear: both;
+}
+.one .box:nth-child(2n+1){
+    background-color: white;
+}
+.two .box:nth-child(2n-2){
+    background-color: white;
+}
+.one p{
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.two p{
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.abc p:nth-last-child(1){
+    color: aqua;
+
+}

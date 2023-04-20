@@ -1,0 +1,106 @@
+*{
+    margin: 0 auto;
+}
+.parent{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    position: relative;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.child-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.child-9{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0% ,130%);
+}
+.child-13{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(130%,0%);
+}
+.child-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.child-7{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0%,130%);
+}
+.child-12{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-130%,0%);
+}
+.child-3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.child-8{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(0%,-130%);
+}
+.child-11{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-130%,0%);
+}
+.child-4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.child-5{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(0% ,-130%);
+}
+.child-6{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-130% ,-130%);
+}
+.child-10{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(130%,0%);
+}
+.child-14{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(130%,130%);
+}
+.child-15{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-130%,130%);
+}
+.child-16{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(130%,-130%);
+}
