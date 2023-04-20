@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, blue,lightblue,darkblue);
+}
+
+.inner-box{
+     width: 400px;
+     margin: 0 auto;
+     position: relative;
+     top: 50%;
+     transform: translateY(-50%);
+     padding: 20px 40px;
+     background-color: white;
+     border-radius: 8px;
+}
+.inner-box h1{
+    font-size: 2.8rem;
+    color: black;
+}
+.inner-box div{
+    font-size: 0.9rem;
+    color: #555;
+}
+.form-main{
+    margin: 20px 0;
+} 
+.form-main div{
+    margin: 10px 0;
+}
+.form-main label{
+    display: block;
+    font-weight: bold;
+}
+.form-main div input,button{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+}
+.form-main div [type="submit"]{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.form-main div [type="submit"]:hover{
+    background-color: #203e52;
+    border-radius: 20px;
+}
+.form-footer div{
+    color: #555;
+}
+.form-footer div a{
+    color: rgb(47, 54, 185);
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: rgb(247, 237, 231);
+}
+.container{
+    width: 40vw;
+    height: 60vh;
+    padding-left: 30px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 2px groove;
+    background-color: rgb(167, 216, 237);
+}
+.main{
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button[type="submit"]{
+    width: 90%;
+    padding: 10px;
+    border: 2px rgb(204, 207, 250) solid;
+    border-radius: 10px;
+}
+button[type="submit"]{
+    color: white;
+    background-color: rgb(85, 107, 221);
+}
+.footer{
+    text-align: center;
+} */

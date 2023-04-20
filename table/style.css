@@ -1,0 +1,22 @@
+body{
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    border: 2px black solid;
+    background: rgba(172, 169, 169, 0.071);
+    border-collapse: collapse;
+}
+th,td,tr{
+    padding: 5px;
+    border: 2px black solid;
+}
+.footer{
+    text-align: center;
+}
+.footer span{
+    color: rgb(20, 160, 247);
+}
+.foot{
+    color: rgb(20, 160, 247);
+}

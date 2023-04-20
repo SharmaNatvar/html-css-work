@@ -1,0 +1,87 @@
+a{
+    text-decoration: none;
+}
+.ri-phone-line{
+    color: black;
+    font-size: 40px;
+}
+
+.ri-linkedin-box-fill{
+    color: rgba(40, 58, 247, 0.763);
+    font-size: 40px;
+}
+
+.linkedin{
+    font-size: 60px;
+}
+
+/* .ri-instagram-line{
+    color: red;
+    font-size: 40px;
+} */
+
+.ri-twitter-fill{
+    color: rgb(10, 129, 240);
+    font-size: 40px;
+}
+
+.twitter{
+    font-size: 60px;
+}
+
+.ri-github-fill{
+    color: black;
+    font-size: 40px;
+}
+.github{
+    font-size: 60px;
+}
+
+.ri-instagram-fill{
+    color: #e95950;
+    font-size: 40px;
+}
+.instagram{
+    font-size: 60px;
+}
+.ri-dribbble-line{
+    color: #ea4c89;
+    font-size: 40px;
+}
+.dribbble{
+    font-size: 60px;
+}
+.ri-youtube-fill{
+    color: #c4302b;
+    font-size: 40px;
+}
+.youtube{
+    font-size: 60px;
+}
+
+.ri-mail-fill{
+    color: #BB001B;
+    font-size: 38px;
+}
+.nav1{
+    font-family: cursive;
+    font-size: 20px;
+    width: 1140px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    /* display: inline-block; */
+    z-index: 9999;
+    background-color: lightcyan;
+}
+@font-face {
+    font-family: NotoSerifNPHmong-Bold;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+body{
+    font-family: NotoSerifNPHmong-Bold;
+}
+p{
+    font-size: 24px;
+    
+}
